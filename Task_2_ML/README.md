@@ -18,5 +18,19 @@ Summary of model you can check in file named "Model_summary.txt"
 
 # 3. Results.
 
+Validation accuracy of this model 0.9397035241127014
+It means that in ≈94% of cases, the model works correctly
 
-https://drive.google.com/file/d/1cVNz9MQpnw2X6ecds5L0SYSLMt923YU3/view?usp=sharing
+# Instruction for training model.
+You should:
+1) Install neural_network.py, keras_utils.py, tqdm_utils.py
+2) Install package: keras
+3) Install and unzip this https://drive.google.com/file/d/1-HUNDjcmSqdtMCvEkVlI0q43qlkcXBdK/view
+4) Put all files in one directory
+5) Uncomment all the scripts
+6) Run neural_network.py, wait and grab coffie
+
+# Instruction for run model and make predictions.
+You should:
+1) Install pre trained model from this https://drive.google.com/file/d/1cVNz9MQpnw2X6ecds5L0SYSLMt923YU3/view?usp=sharing
+2)
