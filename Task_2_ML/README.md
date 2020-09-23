@@ -47,7 +47,7 @@ You should:
 1) Install pre trained model from this https://drive.google.com/file/d/1cVNz9MQpnw2X6ecds5L0SYSLMt923YU3/view?usp=sharing
 2) Install process.py
 3) Install packages: numpy (with pip: pip install numpy); pandas (with pip: pip install pandas); opencv-python (with pip: pip install opencv-python)
-4) Put all files in one directory that containes folder with images that need to be classified
+4) Put all files in one directory that contains folder with images that need to be classified
 5) Open your Command Line and go to the directory where you placed the files with command "cd name" (name-folders way)
 6) Write "python process.py name_folder" where name_folder - name of folder in directory with images
 Wait awhile...
