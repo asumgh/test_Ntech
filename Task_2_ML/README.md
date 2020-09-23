@@ -33,7 +33,7 @@ Summary of model you can check in file named "Model_summary.txt".
 ## 3. Results.
 
 Validation accuracy of this model 0.9397035241127014.
-It means that in ≈94% of cases the model works correctly.
+This means that in ≈94% of cases the model classifies images correctly.
 
 ## 4. Instruction for training model.
 You should:
