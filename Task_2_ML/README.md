@@ -2,11 +2,11 @@ This kernel is InceptionV3 that written by Tensorflow. Web: https://keras.io/api
 
 Task: Binary classification of images of women and men
 
-# Table of contents
+## Table of contents
 
 <!--ts-->
 
-   * [Preparing images for training](# 1. Preparing images for training)
+   * [Model](#Model)
 
 <!--te-->
 
@@ -14,7 +14,7 @@ Task: Binary classification of images of women and men
 For loading images and taking them to model I used ImageDataGenerator from keras.preprocessing.image: the generator was created so that we do not load RAM with images, we transform them right before uploading them to the network
 Unusual parameters for training data generator: shear_range - counterclockwise shift angle in degrees, set to 0.2; zoom_range - the range for the random zoom, set to 0.2; horizontal_flip - randomly flip inputs horizontally. I used it to make flaxible model
 
-# 2. Model.
+## 2. Model.
 I haven't chosen all of Inception V3 for this task
 Parameters:
   * include_top=False : we don't need fully connected layer with 1000 outputs
@@ -24,12 +24,12 @@ Parameters:
 
 Summary of model you can check in file named "Model_summary.txt"
 
-# 3. Results.
+## 3. Results.
 
 Validation accuracy of this model 0.9397035241127014
 It means that in ≈94% of cases the model works correctly
 
-# 4. Instruction for training model.
+## 4. Instruction for training model.
 You should:
 1) Install neural_network.py, keras_utils.py, tqdm_utils.py
 2) Install package: keras (with pip: pip install keras)
@@ -38,7 +38,7 @@ You should:
 5) Uncomment all the scripts
 6) Run neural_network.py, wait and grab coffie
 
-# 5. Instruction for running model and make predictions.
+## 5. Instruction for running model and make predictions.
 You should:
 1) Install pre trained model from this https://drive.google.com/file/d/1cVNz9MQpnw2X6ecds5L0SYSLMt923YU3/view?usp=sharing
 2) Install process.py
