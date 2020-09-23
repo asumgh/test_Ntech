@@ -16,10 +16,12 @@ Task: Binary classification of images of women and men
 
 ## 1. Preparing images for training.
 For loading images and taking them to model I used ImageDataGenerator from keras.preprocessing.image: the generator was created so that we do not load RAM with images, we transform them right before uploading them to the network.
+
 Unusual parameters for training data generator: shear_range - counterclockwise shift angle in degrees, set to 0.2; zoom_range - the range for the random zoom, set to 0.2; horizontal_flip - randomly flip inputs horizontally. I used it to make flaxible model.
 
 ## 2. Model.
 I haven't chosen all of Inception V3 for this task.
+
 Parameters:
   * include_top=False : we don't need fully connected layer with 1000 outputs
   * weights='imagenet' : we need weights from ImageNet
