@@ -6,7 +6,7 @@ Task: Binary classification of images of women and men
 
 <!--ts-->
 
-   * [Model](#Model)
+   * [Model](#2-Model)
 
 <!--te-->
 
