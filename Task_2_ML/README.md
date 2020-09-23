@@ -6,7 +6,9 @@ Task: Binary classification of images of women and men
 
 <!--ts-->
 
-   * [Preparing images for training](#Preparing images for training)
+   * [Preparing images for training](# 1. Preparing images for training)
+
+<!--te-->
 
 # 1. Preparing images for training.
 For loading images and taking them to model I used ImageDataGenerator from keras.preprocessing.image: the generator was created so that we do not load RAM with images, we transform them right before uploading them to the network
