@@ -30,7 +30,7 @@ You should:
 5) Uncomment all the scripts
 6) Run neural_network.py, wait and grab coffie
 
-# 5. Instruction for run model and make predictions.
+# 5. Instruction for running model and make predictions.
 You should:
 1) Install pre trained model from this https://drive.google.com/file/d/1cVNz9MQpnw2X6ecds5L0SYSLMt923YU3/view?usp=sharing
 2) Install process.py
