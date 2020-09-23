@@ -103,6 +103,12 @@
 #         verbose=0
 # )
 
+# eval_score = model.evaluate_generator(
+#     validation_generator, 
+#     len(validation_generator) // 4
+# )
+# print("Evaluation score = {}".format(eval_score[1]))
+
 # #Save the model to use it in the future
 # #
 # model.save('my_model.h5')
