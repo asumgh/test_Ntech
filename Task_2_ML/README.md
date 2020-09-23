@@ -21,16 +21,22 @@ Summary of model you can check in file named "Model_summary.txt"
 Validation accuracy of this model 0.9397035241127014
 It means that in ≈94% of cases, the model works correctly
 
-# Instruction for training model.
+# 4. Instruction for training model.
 You should:
 1) Install neural_network.py, keras_utils.py, tqdm_utils.py
-2) Install package: keras
+2) Install package: keras (with pip: pip install keras)
 3) Install and unzip this https://drive.google.com/file/d/1-HUNDjcmSqdtMCvEkVlI0q43qlkcXBdK/view
 4) Put all files in one directory
 5) Uncomment all the scripts
 6) Run neural_network.py, wait and grab coffie
 
-# Instruction for run model and make predictions.
+# 5. Instruction for run model and make predictions.
 You should:
 1) Install pre trained model from this https://drive.google.com/file/d/1cVNz9MQpnw2X6ecds5L0SYSLMt923YU3/view?usp=sharing
-2)
+2) Install process.py
+3) Install packages: numpy (with pip: pip install numpy); pandas (with pip: pip install pandas); opencv-python (with pip: pip install opencv-python)
+4) Put all files in one directory
+5) Open your Command Line and go to the directory where you placed the files with command "cd name" (name-folders way)
+6) Write "python process.py name_folder" where name_folder - folder in directory with images that need to be classified
+Wait awhile...
+After that you will find "process_results.json" with names and classes of each image
