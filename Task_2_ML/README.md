@@ -6,7 +6,11 @@ Task: Binary classification of images of women and men
 
 <!--ts-->
 
+   * [Preparing images for training](#1-Preparing-images-for-training)
    * [Model](#2-Model)
+   * [Model](#3-Results)
+   * [Model](#4-Instruction-for-training-model)
+   * [Model](#5-Instruction-for-running-model-and-make-predictions)
 
 <!--te-->
 
