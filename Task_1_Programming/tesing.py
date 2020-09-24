@@ -1,5 +1,5 @@
 def findMaxSubArray(a):
-
+	"""Finding a continuous subarray in the array containing at least one number that has the largest sum. Input: list; Output: list"""
 	max_sum = max(a)
 	list_max = [max(a)]
 
