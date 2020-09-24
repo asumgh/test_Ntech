@@ -1,2 +1,2 @@
 # test_Ntech
-This repo contains two tasks from testing to internship
+This repository contains two tasks from testing to internship
