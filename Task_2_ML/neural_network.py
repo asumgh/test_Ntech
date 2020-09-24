@@ -8,8 +8,6 @@
 # import keras
 # from keras.preprocessing.image import ImageDataGenerator
 
-# #Just some usefull files with comfortable functions
-# #
 # import keras_utils
 # from keras_utils import reset_tf_session
 
@@ -19,7 +17,7 @@
 
 
 # def inception(use_imagenet=True):
-#     '''The main frame of our model'''
+#     """The main frame of our model. Input: None; Output: model of NN"""
 #     model = keras.applications.InceptionV3(include_top=False, input_shape=(IMG_SIZE, IMG_SIZE, 3),
 #                                           weights='imagenet' if use_imagenet else None)
 #     new_output = keras.layers.GlobalAveragePooling2D()(model.output)
