@@ -5,23 +5,12 @@
 import sys
 import os
 sys.path.append("..")
+
 #Load libraries which helps us with building model
 #
-
-#Neural network framework
-#
 import keras
-
-#For images
-#
 import cv2
-
-#Algebra
-#
 import numpy as np
-
-#For Data Frame
-#
 import pandas as pd
 
 #Size of images
@@ -46,7 +35,7 @@ batch_size = 32
 
 
 def batch_generator(items, batch_size):
-    '''Generating batches'''
+    """Generating batches. Input: list, int; Output: list"""
     k = batch_size
     for item in items:
         if k == batch_size:
@@ -62,7 +51,7 @@ def batch_generator(items, batch_size):
 
 
 def predict_generator(files, batch_size, directory):
-    '''Making row of numbers for each batch of images'''
+    """Making row of numbers for each batch of images. Input: list, int, str; Output: list, np.ndarray"""
     for batch in batch_generator(files, batch_size):
         batch_imgs = []
         for name in batch:
