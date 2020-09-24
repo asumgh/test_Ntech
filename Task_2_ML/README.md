@@ -1,4 +1,4 @@
-This kernel is InceptionV3 that written by Tensorflow. Web: https://keras.io/api/applications/inceptionv3/
+This repository is InceptionV3 that written by Tensorflow. Web: https://keras.io/api/applications/inceptionv3/
 
 Task: Binary classification of images of women and men
 
@@ -37,17 +37,17 @@ This means that in ≈94% of cases the model classifies images correctly.
 
 ## 4. Instruction for training model.
 You should:
-1) Install neural_network.py, keras_utils.py, tqdm_utils.py
+1) Download neural_network.py, keras_utils.py, tqdm_utils.py
 2) Install package: keras (with pip: pip install keras)
-3) Install and unzip this https://drive.google.com/file/d/1-HUNDjcmSqdtMCvEkVlI0q43qlkcXBdK/view
+3) Download and unzip this https://drive.google.com/file/d/1-HUNDjcmSqdtMCvEkVlI0q43qlkcXBdK/view
 4) Put all files in one directory
 5) Uncomment all the scripts
 6) Run neural_network.py, wait and grab coffie
 
 ## 5. Instruction for running model and make predictions.
 You should:
-1) Install pre trained model from this https://drive.google.com/file/d/1cVNz9MQpnw2X6ecds5L0SYSLMt923YU3/view?usp=sharing
-2) Install process.py
+1) Download pre trained model from this https://drive.google.com/file/d/1cVNz9MQpnw2X6ecds5L0SYSLMt923YU3/view?usp=sharing
+2) Download process.py
 3) Install packages: numpy (with pip: pip install numpy); pandas (with pip: pip install pandas); opencv-python (with pip: pip install opencv-python)
 4) Put all files in one directory that contains folder with images that need to be classified
 5) Open your Command Line and go to the directory where you placed the files with command "cd name" (name-folders way)
