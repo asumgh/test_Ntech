@@ -39,7 +39,7 @@ This means that in ≈94% of cases the model classifies images correctly.
 You should:
 1) Download neural_network.py, keras_utils.py, tqdm_utils.py
 2) Install package: keras (with pip: pip install keras)
-3) Download and unzip this https://drive.google.com/file/d/1-HUNDjcmSqdtMCvEkVlI0q43qlkcXBdK/view
+3) Download and unzip this https://drive.google.com/file/d/1-HUNDjcmSqdtMCvEkVlI0q43qlkcXBdK/view  (windows: https://g-ek.com/kak-izvlech-fajlyi-tar-gz-v-windows10; linux: https://pingvinus.ru/answers/844)
 4) Put all files in one directory
 5) Uncomment all the scripts
 6) Run neural_network.py, wait and grab coffie
